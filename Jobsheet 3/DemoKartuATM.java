@@ -1,6 +1,6 @@
 public class DemoKartuATM {
     public static void main(String[] args) {
-        // Instansiasi objek baru menggunakan Constructor[cite: 3]
+        // Instansiasi objek baru menggunakan Constructor
         KartuATM kartuKu = new KartuATM(
             "Debit", 
             "BRI", 
@@ -20,7 +20,7 @@ public class DemoKartuATM {
         kartuKu.setTerimaTransfer(250000);
 
         System.out.println("\n--- Pengecekan Menggunakan Getter ---");
-        // Menggunakan getter agar data tetap aman dan bersifat read-only[cite: 3]
+        // Menggunakan getter agar data tetap aman dan bersifat read-only
         System.out.println("Nama Pemilik : " + kartuKu.getPemilik());
         System.out.println("Sisa Saldo : Rp" + kartuKu.getSaldo());
     }

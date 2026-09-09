@@ -1,7 +1,7 @@
 
 public class Motor {
 
-   private String platNomor;
+    private String platNomor;
     private boolean isMesinOn;
     private int kecepatan;
 
@@ -40,12 +40,13 @@ public class Motor {
         if (!this.isMesinOn && kecepatan > 0) {
             System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin off");
         } else if (kecepatan > 100) {
+            // Jawaban Soal No 4: Batas maksimal 100
             System.out.println("Kecepatan maksimal adalah 100");
         } else if (kecepatan < 0) {
+            // Jawaban Soal No 5: Mencegah nilai negatif
             System.out.println("Kecepatan tidak boleh bernilai negatif");
         } else {
             this.kecepatan = kecepatan;
         }
     }
 }
-

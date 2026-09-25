@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoBengkelMaju",
+            "request": "launch",
+            "mainClass": "DemoBengkelMaju",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "DemoPenjualan",
+            "request": "launch",
+            "mainClass": "DemoPenjualan",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
             "name": "KartuAtmDemo",
             "request": "launch",
             "mainClass": "KartuAtmDemo",

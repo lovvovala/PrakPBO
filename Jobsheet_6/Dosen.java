@@ -6,12 +6,15 @@ public class Dosen extends Pegawai {
         System.out.println("Objek dari class Dosen dibuat");
     }
 
+    public String getInfo() {
+        return "NIDN  : " + this.nidn + "\n";
+    }
 
-    
     public String getAllInfo() {
         String info = super.getInfo();
-        info += "NIDN  : " + nidn;
+        info += this.getInfo();
 
         return info;
+
     }
 }

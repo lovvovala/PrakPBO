@@ -192,6 +192,7 @@ public class DemoPenjualan {
         stock1.getDisplayStock(); // Menampilkan informasi stock untuk produk 1
         stock2.getDisplayStock(); // Menampilkan informasi stock untuk produk 2
 
+    
 
     }
 } 

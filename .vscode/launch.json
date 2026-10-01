@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InheritanceDemo",
+            "request": "launch",
+            "mainClass": "InheritanceDemo",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "InheritanceDemo",
+            "request": "launch",
+            "mainClass": "Jobsheet_6.Praktikum.InheritanceDemo",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "DemoKartu",
+            "request": "launch",
+            "mainClass": "DemoKartu",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
             "name": "DemoBengkelMaju",
             "request": "launch",
             "mainClass": "DemoBengkelMaju",

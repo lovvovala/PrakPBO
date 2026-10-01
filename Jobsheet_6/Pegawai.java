@@ -17,10 +17,5 @@ public class Pegawai {
         return info;
     }
 
-    public String getAllInfo() {
-        String info = getInfo();
-        info += "NIDN  : " + ((Dosen) this).nidn + "\n";
 
-        return info;
-    }
 }

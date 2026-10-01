@@ -6,13 +6,10 @@ public class Dosen extends Pegawai {
         System.out.println("Objek dari class Dosen dibuat");
     }
 
-    // Method getAllInfo() dari Percobaan 4 Langkah 8
-    public String getAllInfo() {
-        String info = "";
-        info += "NIP   : " + super.nip + "\n";
-        info += "Nama  : " + super.nama + "\n";
-        info += "Gaji  : " + super.gaji + "\n";
-        info += "NIDN  : " + this.nidn + "\n";
+
+       public String getAllInfo() {
+        String info = getInfo();
+        info += "NIDN  : " + nidn;
 
         return info;
     }

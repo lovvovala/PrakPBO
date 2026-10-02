@@ -6,7 +6,11 @@ public class DemoKartu {
         debitRahma.cekSaldo(); // Memanggil method warisan dari parent
         debitRahma.tarikTunai(500000); // Memanggil method warisan dari parent
         System.out.println("Batas tarik harian: Rp" + debitRahma.getBatasTarik()); // Method spesifik class anak
-        
+        // modifikasi nilai
+        debitRahma.setBatasTarik(15000000);
+        System.out.println("\n=== SETELAH DIMODIFIKASI ===");
+        System.out.println("Batas tarik harian: Rp" + debitRahma.getBatasTarik());
+
         System.out.println("\n=== TEST KARTU KREDIT ===");
         KartuKredit kreditRahma = new KartuKredit("8765-4321", "Rahma", 2000000, 15000000);
         kreditRahma.cekSaldo(); // Memanggil method warisan dari parent

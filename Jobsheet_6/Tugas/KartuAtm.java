@@ -1,3 +1,4 @@
+package Tugas;
 // parent
 public class KartuAtm {
     // protected (#) agar atribut ini hanya bisa diakses dan diwariskan kepada child

@@ -1,3 +1,5 @@
+package Tugas;
+
 public class KartuKredit extends KartuAtm {
     // Modifier private (-)
     private double limitKredit;

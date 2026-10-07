@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainManusia",
+            "request": "launch",
+            "mainClass": "MainManusia",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "Segitiga",
+            "request": "launch",
+            "mainClass": "Segitiga",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "Utama",
+            "request": "launch",
+            "mainClass": "Utama",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
             "name": "InheritanceDemo",
             "request": "launch",
             "mainClass": "InheritanceDemo",

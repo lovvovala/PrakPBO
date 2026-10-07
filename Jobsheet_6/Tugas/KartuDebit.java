@@ -1,3 +1,5 @@
+package Tugas;
+
 public class KartuDebit extends KartuAtm {
     // Modifer private (-) agar atribut tidak dilihat di class lain
     private long batasTarikHarian;

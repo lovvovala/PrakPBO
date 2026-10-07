@@ -4,4 +4,3 @@ public class InheritanceDemo {
         System.out.println(dosen2.getAllInfo());
     }
 }
-

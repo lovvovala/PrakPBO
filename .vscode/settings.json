@@ -2,6 +2,8 @@
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
     "java.project.sourcePaths": [
         "Jobsheet_6/Tugas",
-        "Jobsheet_6"
+        "Jobsheet_6",
+        "Jobsheet 7",
+        "Jobsheet_7"
     ]
 }

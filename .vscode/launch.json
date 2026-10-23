@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AbstractClassDemo",
+            "request": "launch",
+            "mainClass": "AbstractClassDemo",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
+            "name": "DemoKartuAtm",
+            "request": "launch",
+            "mainClass": "DemoKartuAtm",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
             "name": "DemoSistemKendaraan",
             "request": "launch",
             "mainClass": "DemoSistemKendaraan",

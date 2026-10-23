@@ -1,9 +1,11 @@
 {
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
     "java.project.sourcePaths": [
+        "UTS",
         "Jobsheet_7",
         "Jobsheet_6/Tugas",
         "Jobsheet_6",
-        "UTS"
+        "Jobsheet 9",
+        "Jobsheet 8"
     ]
 }

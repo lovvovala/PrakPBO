@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "PrakPBO_2b5a9855"
+        },
+        {
+            "type": "java",
             "name": "DemoPegawai",
             "request": "launch",
             "mainClass": "DemoPegawai",

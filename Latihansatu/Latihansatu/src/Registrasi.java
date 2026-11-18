@@ -31,12 +31,28 @@ public class Registrasi {
     textField3.setBounds(20, 160, 150, 20);
     frame.add(textField3);
 
+    JLabel label4 = new JLabel("Alamat:");
+    label4.setBounds(10, 190, 150, 20);
+    frame.add(label4);
+
+    JTextField textField4 = new JTextField();
+    textField4.setBounds(20, 220, 150, 20);
+    frame.add(textField4);
+
+    JLabel label5 = new JLabel("Asal Sekolah:");
+    label5.setBounds(10, 250, 150, 20);
+    frame.add(label5);
+
+    JTextField textField5 = new JTextField();
+    textField5.setBounds(20, 280, 150, 20);
+    frame.add(textField5);
+
     JButton button1 = new JButton("Simpan");
-    button1.setBounds(20, 190, 150, 20);
+    button1.setBounds(20, 310, 150, 20);
     frame.add(button1);
 
     JButton button2 = new JButton("Reset");
-    button2.setBounds(20, 220, 150, 20);
+    button2.setBounds(20, 340, 150, 20);
     frame.add(button2);
 
     JTextArea textArea = new JTextArea();
@@ -50,10 +66,12 @@ public class Registrasi {
             String nama = textField1.getText();
             String nim = textField2.getText();
             String prodi = textField3.getText();
-            textArea.setText("Nama: " + nama + "\nNIM: " + nim + "\nProdi: " + prodi);
+            String alamat = textField4.getText();
+            String asalSekolah = textField5.getText();
+            textArea.setText("Nama: " + nama + "\nNIM: " + nim + "\nProdi: " + prodi + "\nAlamat: " + alamat + "\nAsal Sekolah: " + asalSekolah);
 
             // VALIDASI INPUT KOSONG
-            if (nama.isEmpty() || nim.isEmpty() || prodi.isEmpty()) {
+            if (nama.isEmpty() || nim.isEmpty() || prodi.isEmpty() || alamat.isEmpty() || asalSekolah.isEmpty()) {
                 JOptionPane.showMessageDialog(frame, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
                 return; // Hentikan eksekusi jika ada field kosong
             } 
@@ -63,6 +81,8 @@ public class Registrasi {
             textArea.append("Nama: " + nama + "\n");
             textArea.append("NIM :" + nim + "\n");
             textArea.append("Prodi: " + prodi + "\n");
+            textArea.append("Alamat: " + alamat + "\n");
+            textArea.append("Asal Sekolah: " + asalSekolah + "\n");
 
             JOptionPane.showMessageDialog(frame, "Data berhasil disimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
         }
@@ -74,7 +94,10 @@ public class Registrasi {
             textField1.setText("");
             textField2.setText("");
             textField3.setText("");
+            textField4.setText("");
+            textField5.setText("");
             textArea.setText("");
+
         }
     });
     frame.setVisible(true);

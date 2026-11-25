@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormRegistrasiGym",
+            "request": "launch",
+            "mainClass": "frontend.FormRegistrasiGym",
+            "projectName": "pbo-gui"
+        },
+        {
+            "type": "java",
+            "name": "TestKoneksi",
+            "request": "launch",
+            "mainClass": "backend.TestKoneksi",
+            "projectName": "pbo-gui"
+        },
+        {
+            "type": "java",
+            "name": "TestKoneksi",
+            "request": "launch",
+            "mainClass": "com.example.backend.TestKoneksi",
+            "projectName": "pbo-gui"
+        },
+        {
+            "type": "java",
             "name": "Demo",
             "request": "launch",
             "mainClass": "Demo",

@@ -3,7 +3,7 @@ import java.awt.event.*;
 public class Registrasi {
    public static void main(String[] args) {
     JFrame frame = new JFrame("Form Registrasi Mahasiswa");
-    frame.setSize(600, 400);
+    frame.setSize(700, 500);
     frame.setLayout(null);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
